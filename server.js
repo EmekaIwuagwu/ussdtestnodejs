@@ -20,7 +20,8 @@ app.post('*', (req,res) =>{
 if(text == ''){
 	let response = `CON What would you like to check?
 	1. Get My Account
-	2. Get My Balance`
+	2. Get My Balance
+    3. Send HeyGlory`
 	
 	res.send(response)
 	}
